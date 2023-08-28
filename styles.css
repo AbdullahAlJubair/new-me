@@ -41,6 +41,8 @@
     border: 0;
     padding: 15px;
     cursor: pointer;
+    position: absolute;
+    right: 0;
 }
 /*About Section*/
 .about {
@@ -82,7 +84,7 @@ ul>.profile-info-list{
 }
 /*Planning Section*/
 .plan {
-    padding: 50px 150px;
+    padding: 50px 200px;
 }
 .plan-title {
     color: #151414;
@@ -110,7 +112,7 @@ ul>.profile-info-list{
     font-size: 16px;
     font-weight: 500;
 }
-/*M\Newsletter Section*/
+/*Newsletter Section*/
 .newsletter {
     width: 900px;
     height: 220px;
@@ -121,7 +123,7 @@ ul>.profile-info-list{
     border-radius: 5px;
 }
 .newsletter-container {
-    padding: 45px 40px;
+    padding: 45.5px 40px;
     background-image: url('images/gradient2.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -134,7 +136,7 @@ ul>.profile-info-list{
     font-weight: 700;
     margin-bottom: 20px;
 }
-.newsletter .secondary-btn {
+.secondary-btn {
     border-radius: 5px;
     background: #FFF;
     color: #F15B22;
@@ -142,5 +144,70 @@ ul>.profile-info-list{
     border: 0;
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
+}
+/*Footer Section*/
+.footer {
+    display: flex;
+    padding: 100px 180px;
+    background-color: #151414;
+    justify-content: space-between;
+}
+.footer-column {
+    width: 45%;
+}
+.footer-title {
+    color: #F8F8F8;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+p.footer-text {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-bottom: 15px;
+}
+.footer-text-info {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-bottom: 25px;
+}
+.social-icon img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.footer-contact-title {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.footer-column input, button {
+    display: block;
+}
+.footer-column input {
+    padding: 12px;
+    font-size: 12px;
+    width: 60%;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #FFF;
+}
+.footer-credit {
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #F15B22;
+}
+.footer-credit > p > strong {
     cursor: pointer;
 }
