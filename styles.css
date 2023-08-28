@@ -40,6 +40,7 @@
     background: #F15B22;
     border: 0;
     padding: 15px;
+    cursor: pointer;
 }
 /*About Section*/
 .about {
@@ -108,4 +109,38 @@ ul>.profile-info-list{
     text-align: center;
     font-size: 16px;
     font-weight: 500;
+}
+/*M\Newsletter Section*/
+.newsletter {
+    width: 900px;
+    height: 220px;
+    margin: 100px auto;
+    background-image: url('images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.newsletter-container {
+    padding: 45px 40px;
+    background-image: url('images/gradient2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.news-title {
+    width: 50%;
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.newsletter .secondary-btn {
+    border-radius: 5px;
+    background: #FFF;
+    color: #F15B22;
+    padding: 10px 15px;
+    border: 0;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
 }
